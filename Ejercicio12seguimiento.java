@@ -27,8 +27,8 @@ public class Ejercicio12seguimiento {
         Retencion = calcular_Retencion(Completo, Retencionporcentaje);
         Neto = calcular_Neto(Completo, Retencion);
 
-        System.out.println("El salario completo es: " + Completo);
-        System.out.println("La Retencion es: " + Retencion);
-        System.out.println("El salario Neto es: " + Neto); 
+        System.out.println("El salario completo es: " +(int) Completo);
+        System.out.println("La Retencion es: " + (int)Retencion);
+        System.out.println("El salario Neto es: " + (int)Neto); 
     }
 }
